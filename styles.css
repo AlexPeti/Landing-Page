@@ -1,3 +1,40 @@
 body {
     background-color: grey;
+    font-family: 'Roboto', arial;
+    text-align: center;
 }
+
+.header {
+    height:100px;
+    width: 80%;
+    display: flex;
+    flex: 1;
+    justify-content:space-between;
+    margin: auto;
+    background-color: black;
+    padding: 10px 10px 8px 8px;
+    
+
+    
+}
+.header-logo {
+    color: white;
+}
+.link {
+    color: white;
+     text-decoration: none;
+     
+}
+
+.hero{
+    display: flex;
+    height:500px;
+    width: 100%;
+    
+}
+
+.img {
+    height: auto;
+    width: 300px;
+}
+
