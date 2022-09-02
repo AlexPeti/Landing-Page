@@ -26,12 +26,25 @@ body {
      
 }
 
-.hero{
+.hero {
     display: flex;
-    height:500px;
-    width: 100%;
+    background-color: blue;
+    color: white;
+    padding: 70px;
+    height: 300px;
+    width: 80%;
+    margin: auto;
+    padding: 10px 10px 8px 8px;
+    
+    
     
 }
+
+.hero-text {
+    text-align: left;
+    margin-left: 200px;
+    
+} 
 
 .img {
     height: auto;
