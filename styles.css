@@ -56,3 +56,15 @@ body {
     margin-right: 200px;
 }
 
+.container {
+    display: flex;
+    height: 300px;
+    width: 80%;
+    background-color: white;
+    margin: auto;
+    padding: 10px 10px 8px 8px;
+}
+
+.container-text {
+    text-align: center;
+}
