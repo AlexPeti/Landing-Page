@@ -3,7 +3,7 @@ body {
     font-family: 'Roboto' , arial;
     text-align: center;
 }
-
+/*------------HEADER AND LOGO SECTION-----------------*/
 .header {
     height:100px;
     width: auto;
@@ -28,7 +28,7 @@ body {
     margin: 5px;
      
 }
-
+/*-----------------------HERO SECTION---------------------*/
 .hero {
     display: flex;
     background-color: #1F2937;
@@ -56,6 +56,7 @@ button {
     width: 100px;
     height: 30px;
     border: none;
+    cursor: grab;
 }
 
 
@@ -67,7 +68,7 @@ button {
     padding-top: 20px;
     margin-right: 200px;
 }
-
+/*---------------------IMAGE CONTAINER SECTION--------------------------*/
 .container {
     display: flex;
     height: 300px;
@@ -113,6 +114,7 @@ button {
     font-family: 'Roboto', arial;
 }
 
+/*------------------QUOTE SECTION---------------------*/
 
 .quote-area {
     height: 150px;
@@ -130,20 +132,13 @@ button {
     color: #1F2937;
 }
 
-.support {
-   height: 150px;
-   width: auto;
-   background-color: white;
-   margin: 50px 150px;
-   padding: 10px 50px;
-   align-items: center;
-   display: flex;
-}
+/*----------------- JOIN US SECTION--------------------*/
 
-.support-text {
+.container-join {
     background-color: #3882F6;
     display: flex;
     align-items: center;
+    width: 70%;
     height: 100px;
     text-align: left;
     margin: 50px 250px;
@@ -152,11 +147,32 @@ button {
     display: flex;
     border-radius: 8px;
     border-color: none;
+    justify-content: space-between;
 }
 
-.support-textarea {
-    flex: 1;
+.container-join-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-left: 40px;
+    width: 50%;
 }
+
+h3 {
+    font-size: 30px;
+}
+
+.join-button {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 60px;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: grab;
+}
+
+
+/* -------------- FOOTER -------------------*/
 
 footer {
     height: 30px;
